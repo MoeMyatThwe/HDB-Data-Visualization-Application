@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HDB Data</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <script src="./fetchinfo.js" type="module"></script>
+        <script src="./main.js" type="module"></script>
+        <script src="./funactivity.js" type="module"></script>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <div class="container mt-4"> 
+            <div class="title-container text-center mb-4"> 
+                <h1 class="title">HDB Data</h1>
+            </div>
+            <form id="townForm" class="mb-4"> 
+                <div class="row g-3 align-items-center"> 
+                    <div class="col-auto">
+                        <label for="townDropdown" class="col-form-label text-label" >Select Town:</label>
+                    </div>
+                    <div class="col-auto">
+                        <select id="townDropdown" class="form-select">
+                            
+                        </select>
+                    </div>
+                    <div class="col-auto">
+                        <button type="submit" id="townBtn" class="btn btn-primary">Submit</button>
+                        
+                    </div>
+                </div>
+            </form>
+            <hr>
+            <main>
+                <div id="hdb"></div>
+            </main>
+        </div>
+    </body>
+    </html>
+    
+
+ 
+

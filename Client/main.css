@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+}
+
+.text-label{
+    color: white;
+}
+#hdb {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    column-gap: 30px;
+    row-gap: 40px;
+}
+#submitButton{
+    font-size: 15pt;
+}
+
+label{
+    font-size: 15pt;
+}
+
+
+.title-container {
+    background-color: #b4def7; 
+    padding: 10px 20px; 
+    border-radius: 10px; 
+    margin-bottom: 20px; 
+    
+}
+
+.title {
+    margin: 0; 
+}
+
+#townForm {
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px;
+}
+
+#townDropdown {
+    width: 200px; 
+}
+
+#townBtn {
+    margin-left: 10px; 
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-container > div {
+    flex-basis: 48%; /* Adjust the width as needed */
+}
